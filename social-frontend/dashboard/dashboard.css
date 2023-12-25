@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+.head-container{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 12px;
+    width: 30px;
+    height: auto;
+}
+.search-user-div{
+    margin: 15px;
+}
+.search-user,.search-user-btn{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    background-color: #e6e6e7;
+    margin-left: 4px;
+}
+.account-logo-div{
+    height: 15px;
+}
+.account-logo{
+    width:30px;
+    height: auto;
+    padding: 12px;
+    padding-bottom: 0;
+}
+.account-btn{
+    border: 0px;
+
+}
+.body{
+    border: 1px solid;
+    display: flex;
+}
+.usernames-div{
+    width: 25%;
+}
+.username{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.user-select{
+    width: 100%;
+    font-weight: bold;
+    padding: 14px;
+}
+.friends-logo{
+    width:30px;
+    height: auto;
+    padding: 12px;
+    padding-bottom: 0;
+}
